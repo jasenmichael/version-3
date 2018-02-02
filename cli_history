@@ -1,12 +1,13 @@
- 1912  clear
- 1913  touch install.sh
- 1914  mkdir app
- 1915  cd app
- 1916  mkdir bin
- 1917  mv ../install.sh .
- 1918  cp install.sh install.sh.backup
- 1919  rm -R *
- 1920  cd ..
- 1921  ls
- 1922  rm -R app
- 1923  history | tail -n 12 > cli_history
+ 1023  cd g75
+ 1024  touch install.sh
+ 1025  mkdir app
+ 1026  cd app
+ 1027  mkdir bin
+ 1028  mv ../install.sh bin
+ 1029  cp bin/install.sh bin/install.sh.backup
+ 1030  rm -r bin/*
+ 1031  rm bin -r
+ 1032  ls
+ 1033  cd ..
+ 1034  rm -r app
+ 1035  history | tail -n 12 > cli_history
